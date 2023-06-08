@@ -7,3 +7,4 @@ This repo is a sandbox where I can build and test smart contracts for AVAX C-Cha
 - [test03](./test03) a simple counter smart contract adapted from test02. Has tests, and was deployed to Fuji testnet.
 - [test04](./test04) a JS app that interacts with the deployed Count contract.
 - [test05](./test05) explores the ability to analyze transaction histories of an address.
+- [test06](./test06) creates an ERC721 NFT

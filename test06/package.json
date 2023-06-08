@@ -1,0 +1,15 @@
+{
+  "name": "test06-nft",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "2.0.0",
+    "hardhat": "2.12.4",
+    "standard": "^17.0.0"
+  },
+  "scripts": {
+    "lint": "standard --env mocha --fix"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.9.1",
+    "ethers": "5.7.2"
+  }
+}
