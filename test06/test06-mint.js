@@ -42,8 +42,7 @@ async function start() {
     // Create a contract instance
     const myNftContract = new ethers.Contract(contractAddress, abi, signer)
 
-    // const tokenUri = 'ipfs://bafybeigo6j2dexcc2j2ggnveqrgfhi53iutgsblgtf4szs2i3k5a7lfd7u'
-    // const tokenUri = 'https://pearson-ipfs-gateway.fullstackcash.nl/ipfs/bafybeigo6j2dexcc2j2ggnveqrgfhi53iutgsblgtf4szs2i3k5a7lfd7u/data.json'
+    // This metadata will define the token icon.
     const tokenUri = 'https://pearson-ipfs-gateway.fullstackcash.nl/ipfs/bafybeifonecrujf4gurhnrosmxk2ilu2rztwrosrkri5zt2k25f5kp2yse/data.json'
 
     // Call mintNFT function
